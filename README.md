@@ -58,6 +58,23 @@ This approach significantly reduces cost
 
 ---
 
+## Usage
+
+Clone the repository and start the server:
+
+```bash
+uvicorn main:app --reload
+```
+
+### Request
+
+* **POST** ```/parse-syllabus```
+* Data: ```FormData```
+
+Note: For now, only PDF is only supported.
+
+---
+
 ## API Structure (Planned)
 
 ```text
